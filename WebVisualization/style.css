@@ -1,10 +1,67 @@
-.box {
-  height: 400px;
-  padding: 20px;
-  color: #fff;
-  background: deepskyblue;
+
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: lightseagreen;
+  width: 1000px;
+  position: relative;
+  margin-top: 5%
 }
 
-.margin-top-80 {
-  margin-top: 80px;
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: lightseagreen;
+  width: 1000px;
+  position: relative;
+  margin-top: 10%;
+}
+
+nav {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.navbar-brand{
+  width: 100px;
+  background-color: yellowgreen;
+  text-align: center
+}
+
+.nav-item{
+  width: 100px;
+  background-color: yellowgreen;
+  text-align: center
+}
+
+.analysis {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  margin-top: 2%;
+  padding:2%;
+  width: 400px;
+  border-style: double;
+  text-align: left;
+}
+
+
+.caption{
+  position: relative;
+  text-align: center
+ }
+  
+table {
+  position: relative;
+  margin-top: 2%;
+  margin-left: 20%;
+  border-collapse: collapse;
+  width: 60%
+  }
+
+thead {
+  color: blue;
+  
 }

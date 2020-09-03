@@ -15,8 +15,8 @@
     <body>
                 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="main.html">Latitude</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="main.html">Main</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
               <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -45,20 +45,26 @@
 
     
         <div class="container">
-            <h3 class="text-center">Summary: Latitude vs. X</h3>
+            <h2 class="text-center">Summary: Latitude vs. X</h2>
             <div class="row">
                 <div class="col-md-6">
                     <div class="thumbnail">
                     <img src="resources/assets/images/Fig1.png"  class="img-thumbnail">
                     </div>
                 </div>
+                <div class="analysis">
                 <p>
-                    The analysis
+                    The purpose of this project was to analyze how weather changes as you get closer to the equator. 
+                    To Accomplish this analysis, we first pulled data form OpenWeatherMap API to assemble a dataset on over 500 cities.
+                    <br><br>
+                    After assemblign the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at include: temperature, cloudiness, wind speed, and humidity.  
+                    This site porivdes the source data and visualizations created as part of the analysis, as well as explnations and descriptions of any trends and correlations witnessed.
                 </p>
+                </div>
             </div>
         
-            <h2 class="text-center">Visualizations</h2>
-            <div class="row">
+            <h3 class="text-center">Visualizations</h3>
+            <div class="row" >
                 <div class="col-md-3">
                     <div class="thumbnail">
                         <a href="max_temperature.html">
